@@ -1,0 +1,27 @@
+<body class='use-all-space'>
+    <div class='map-container use-all-space'>
+        <div id='map' class='use-all-space'></div>
+        <div>
+            <label for='trafficStyle'>
+                <span>Traffic flow style</span>
+                <select id='trafficStyle' name='trafficStyle' autocomplete='off'>
+                    <option value='absolute'>absolute</option>
+                    <option value='relative' selected='selected'>relative</option>
+                    <option value='relative-delay'>relative-delay</option>
+                </select>
+            </label>
+            <label for='baseLayer'>
+                <span>Base Layer</span>
+                <select id='baseLayer' name='baseLayer'></select>
+            </label>
+            <label for='trafficLayer'>
+                <span>Traffic Layer</span>
+                <select id='trafficLayer' name='baseLayer'>
+                    <option value='vectorTrafficFlow'>Vector</option>
+                    <option value='trafficFlow'>Raster</option>
+                </select>
+            </label>
+        </div>
+    </div>
+    
+</body>

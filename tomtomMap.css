@@ -1,0 +1,26 @@
+
+        label.disabled,
+        label.warning {
+            opacity: 0.5;
+        }
+        label.disabled ~ label.warning {
+            display: flex;
+            font-size: xx-small;
+            justify-content: center;
+        }
+        .warning {
+            display: none;
+        }
+        label {
+            display: flex;
+            align-items: center;
+            margin: 2px;
+        }
+        label span {
+            flex: 1;
+        }
+        label select {
+            flex: 1;
+            margin-left: 10px;
+        }
+    html{height:100%}
